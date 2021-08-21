@@ -82,7 +82,7 @@ class Board extends React.Component {
     checkSeq(squares[0],squares[4],squares[8]);
     checkSeq(squares[2],squares[4],squares[6]);
     let non_empty = squares.filter(n => n !== '').length;
-    if(non_empty == 9) printtie();
+    if(non_empty === 9) printtie();
     return ;
   }
 
